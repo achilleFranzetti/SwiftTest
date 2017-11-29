@@ -12,6 +12,7 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var titolo: UILabel!
     
+    // Cambia la label se premo il bottone
     @IBAction func changeTitle(_ sender: UIButton) {
         
         titolo.text = "Premuto!"
