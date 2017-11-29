@@ -10,18 +10,14 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-        // test
-        // test2
-        // test3
+    @IBOutlet weak var titolo: UILabel!
+    
+    @IBAction func changeTitle(_ sender: UIButton) {
+        
+        titolo.text = "Premuto!"
+        
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
+    
 
 
 }
